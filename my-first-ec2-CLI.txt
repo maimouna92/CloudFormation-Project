@@ -1,0 +1,6 @@
+aws cloudformation create-stack ^
+  --stack-name Mounaa-EC2-Stack ^
+  --template-body file://"C:\Users\hakab\OneDrive\Documents\CloudFormation-Project\my-first-ec2-template.yml" ^
+  --region us-west-1
+
+
